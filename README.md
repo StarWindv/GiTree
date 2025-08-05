@@ -78,7 +78,8 @@ gitree --owner OWNER --repo REPO [--branch BRANCH] [--path SAVE_PATH]
 - Python 3.10+
 - Dependencies:
   - `requests`
-  - `rich` (for colored output)
+  - `rich` (for formated output)
+  - `stv_utils==0.0.7` (a lightweight hex colored print)
 
 ## License
 
