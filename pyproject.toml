@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gitree"
-version = "0.0.7"
+version = "0.0.1"
 authors = [
     { name = "星灿长风v(StarWindv)", email = "starwindv.stv@gmail.com"}
 ]
@@ -18,3 +18,4 @@ classifiers = [
 dependencies = []
 
 urls = { "Homepage" = "https://github.com/StarWindv/GiTree" }
+
