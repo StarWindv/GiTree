@@ -68,7 +68,7 @@ GiTree automatically creates a configuration file at `~/.stv_project/GiTree/GiTr
 You can modify these values directly in the configuration file to change default behavior.
 
 ## Command Line Interface
-
+- [ ] this mode is under development.
 ```bash
 gitree --owner OWNER --repo REPO [--branch BRANCH] [--path SAVE_PATH]
 ```
