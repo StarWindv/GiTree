@@ -56,7 +56,7 @@ class _Connect:
     _BASE_URL = "https://api.github.com/repos/;owner;/;repo;/contents?ref=;branch;"
     _RAW_UEL = "https://raw.githubusercontent.com/;owner;/;repo;/;branch;/;path;"
     _UA = "Mozilla/5.0 " + \
-          "(compatible; GiTreeSpider/0.1; " + \
+          "(compatible; GiTreeSpider/0.0.1; " + \
           "+https://github.com/starwindv/gitree)"
 
 
@@ -132,7 +132,7 @@ class _GiTree(_Connect):
                 The branch of the repository to index.
             ua (Optional[str]):
                 default:
-                    "Mozilla/5.0 (compatible; GiTreeSpider/0.1; +https://github.com/starwindv/gitree)"
+                    "Mozilla/5.0 (compatible; GiTreeSpider/0.0.1; +https://github.com/starwindv/gitree)"
                 User agent string for requests.
             timeout (Optional[int|float]):
                 default: 10.0
@@ -405,7 +405,7 @@ class GiTree(_GiTree):
 
                 ua      (Optional[str]):
                     default:
-                        "Mozilla/5.0 (compatible; GiTreeSpider/0.1; +https://github.com/starwindv/gitree)"
+                        "Mozilla/5.0 (compatible; GiTreeSpider/0.0.1; +https://github.com/starwindv/gitree)"
                     User agent string for requests.
 
                 timeout (Optional[int|float]):
@@ -553,5 +553,6 @@ class GiTree(_GiTree):
                 self._download_file(path, url)
         else:
             self._thread_download_files(files_list)
+
 
         lprint(";#228B22;All files downloaded successfully!")
