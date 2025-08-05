@@ -10,10 +10,11 @@ authors = [
 ]
 description = ""
 readme = "readme.md"
-license = { text = "MIT" }
+license = { text = "GPLv3" }
 requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
 ]
 dependencies = []
+
 urls = { "Homepage" = "https://github.com/StarWindv/GiTree" }
