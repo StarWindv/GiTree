@@ -1,3 +1,5 @@
+Is it really meaningful for me to do all this... I feel so helpless. After writing a lot, I realized I was reinventing the wheel... Isn't this just git clone...
+
 # GiTree - GitHub Repository Downloader
 
 ![GitHub License](https://img.shields.io/badge/license-GPLv3-blue.svg)
