@@ -17,9 +17,9 @@ class _GiTree(_Connect):
             self,
             owner: str,
             repo: str,
-            branch: Optional[str] = "main",
-            ua: Optional[str] = "",
-            timeout: Optional[int | float] = 10.0
+            branch: str = "main",
+            ua: str = "",
+            timeout: int | float = 10.0
     ):
         """
         Args:
@@ -75,7 +75,7 @@ class _GiTree(_Connect):
 
     def _build(self):
         self._BASE_URL = (
-            self._BASE_URL
+            self._WEB_URL
             .replace(";owner;", self.owner)
             .replace(";repo;", self.repo)
             .replace(";branch;", self.branch)
