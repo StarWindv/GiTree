@@ -8,11 +8,13 @@ class _Connect:
     This is a base class,
     which defined some base url for GitHub.
     """
-    _BASE_URL = "https://api.github.com/repos/;owner;/;repo;/contents?ref=;branch;"
-    _RAW_UEL = "https://raw.githubusercontent.com/;owner;/;repo;/;branch;/;path;"
-    _UA = "Mozilla/5.0 " + \
-          "(compatible; GiTreeSpider/0.0.1; " + \
-          "+https://github.com/starwindv/gitree)"
+    _BASE_URL   = "https://api.github.com/repos/;owner;/;repo;/contents?ref=;branch;"
+    _RAW_UEL    = "https://raw.githubusercontent.com/;owner;/;repo;/;branch;/;path;"
+    _DOMAIN_URL = "https://github.com"
+    _WEB_URL    = "https://github.com/;owner;/;repo;/tree/;branch;"
+    _UA         = "Mozilla/5.0 " + \
+                    "(compatible; GiTreeSpider/0.0.1; " + \
+                    "+https://github.com/starwindv/gitree)"
 
 
 class Configer:
