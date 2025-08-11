@@ -16,9 +16,10 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 dependencies = [
-        "stv_utils">="0.0.7",
+        "stv_utils>=0.0.7",
         "requests",
         "rich",
 ]
 
 urls = { "Homepage" = "https://github.com/StarWindv/GiTree" }
+
